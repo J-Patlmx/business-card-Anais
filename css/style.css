@@ -2,6 +2,7 @@
     --primary-color: rgb(95, 158, 160);
     --secondary-color: rgb(245, 245, 220);
     --tertiary-color: rgb(85, 148, 150);
+    --bg-PP-color: rgb(64, 144, 220);
   }
 *{
     margin:0;
@@ -107,6 +108,7 @@ body{
       width: auto;
       border: 6px solid var(--tertiary-color);
       margin-top: -4rem;
+      background-color: var(--bg-PP-color);
     }
     .container {
       display: flex;
