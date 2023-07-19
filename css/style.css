@@ -74,6 +74,8 @@ body{
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid var(--tertiary-color);
+    background-color: var(--bg-PP-color);
+
   }
   
   .child {
@@ -109,7 +111,6 @@ body{
       width: auto;
       border: 6px solid var(--tertiary-color);
       margin-top: -4rem;
-      background-color: var(--bg-PP-color);
     }
     .container {
       display: flex;
