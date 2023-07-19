@@ -21,22 +21,23 @@ body{
 
   .loader {
     position: fixed;
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
     height: 100vh;
     z-index: 1000;
     inset: 0;
-    opacity: 0.9;
+    opacity: 0.8;
     display: flex;
     justify-content: center;
     align-items: center;
     animation: loader 0.9ms 2s alternate forwards;
     transform-origin: top;
   }
- 
-  .fa-certificate {
-    position: inherit;
-    color: var(--primary-color);
-    font-size: 120px;
+ .fa-solid{
+    font-size: 100px;
+ }
+  .fa-bounce{
+    color: var(--secondary-color)
+   
   }
   @keyframes loader {
     0% {
