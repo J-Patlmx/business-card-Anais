@@ -88,15 +88,20 @@ body{
     border: 2px solid var(--secondary-color);
     border-radius: 16px;
   }
-  a {
-    text-decoration: none;
+ a {
+     text-decoration: none;
+   
+  } 
+
+  #devDread{
+   text-align: center;
   }
   #footer-p {
+    justify-content: center;
+    align-items: center;
     opacity: 0.7;
     display: flex;
       width: 100%;
-      justify-content: center;
-      align-items: center;
       gap: 8px;
 
     
@@ -131,11 +136,11 @@ body{
       font-size: 6rem;
       padding-top: 32px;
     }
-    #footer-p{
+  
+    #footer-p {
      
-      display: flex;
       width: 100%;
-      justify-content: center;
+   
       gap: 16px;
 
     }
